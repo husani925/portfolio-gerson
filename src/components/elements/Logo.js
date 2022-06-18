@@ -5,7 +5,8 @@ function Logo({ logoSource, bootstrapNav }) {
   if (bootstrapNav) {
     return (
       <Link className="navbar-brand" to="/">
-        <img src={logoSource} alt="Bolby" />
+        {/*<img src={logoSource} alt="Gerson Medina" />*/}
+        <h3>GERSON MEDINA</h3>
       </Link>
     );
   }
@@ -13,7 +14,8 @@ function Logo({ logoSource, bootstrapNav }) {
   return (
     <div className="site-logo">
       <Link to="/">
-        <img src={logoSource} alt="Bolby" />
+        {/* <img src={logoSource} alt="Gerson Medina" />*/}
+        <h3>GERSON MEDINA</h3>
       </Link>
     </div>
   );

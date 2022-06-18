@@ -6,23 +6,19 @@ import Portfolio from "../elements/Portfolio";
 const filters = [
   {
     id: 1,
-    text: "Everything",
+    text: "Todos",
   },
   {
     id: 2,
-    text: "creative",
+    text: "Fotografía",
   },
   {
     id: 3,
-    text: "art",
+    text: "Vídeo",
   },
   {
     id: 4,
-    text: "design",
-  },
-  {
-    id: 5,
-    text: "branding",
+    text: "Branding",
   },
 ];
 
@@ -179,7 +175,7 @@ function Works() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Recent Works" />
+        <Pagetitle title="Trabajos Recientes" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
@@ -225,7 +221,7 @@ function Works() {
               "No more items"
             ) : (
               <span>
-                <i className="fas fa-spinner"></i> Load more
+                <i className="fas fa-spinner"></i> Ver más
               </span>
             )}
           </button>

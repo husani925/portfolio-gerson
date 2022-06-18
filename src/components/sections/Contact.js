@@ -17,19 +17,19 @@ function Contact() {
     event.preventDefault();
     if (!formdata.name) {
       setError(true);
-      setMessage("Name is required");
+      setMessage("Se requiere el nombre");
     } else if (!formdata.email) {
       setError(true);
-      setMessage("Email is required");
+      setMessage("correo electronico es requerido");
     } else if (!formdata.subject) {
       setError(true);
-      setMessage("Subject is required");
+      setMessage("El asunto es obligatorio");
     } else if (!formdata.message) {
       setError(true);
-      setMessage("Message is required");
+      setMessage("El mensaje es obligatorio");
     } else {
       setError(false);
-      setMessage("You message has been sent!!!");
+      setMessage("¡¡¡Tu mensaje a sido enviado!!!");
     }
   };
 
@@ -63,7 +63,7 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>Let's talk about everything!</h3>
+                <h3>¡Hablemos de todo!</h3>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"
@@ -71,8 +71,8 @@ function Contact() {
                 animateOnce={true}
               >
                 <p>
-                  Don't like forms? Send me an{" "}
-                  <a href="mailto:name@example.com">email</a>. 👋
+                  ¿No te gustan los formularios? envíame un{" "}
+                  <a href="mailto:info@gersonmedina.com">Email</a>. 👋
                 </p>
               </ScrollAnimation>
             </div>
@@ -148,7 +148,7 @@ function Contact() {
                 value="Submit"
                 className="btn btn-default"
               >
-                Send Message
+                Enviar mensaje
               </button>
             </form>
             {handleAlerts()}

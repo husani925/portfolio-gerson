@@ -6,28 +6,28 @@ import Service from "../elements/Service";
 const servicesData = [
   {
     id: 1,
-    icon: "images/service-1.svg",
-    title: "UI/UX design",
+    icon: "images/service-3.svg",
+    title: "Contenido Audiovisual",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Videos corporativos, Fotografía profesional, Producción & postproducción audiovisual",
     color: "#6C6CE5",
     contentColor: "light",
   },
   {
     id: 2,
     icon: "images/service-2.svg",
-    title: "Web Development",
+    title: "Publicidad Online",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Administración de redes sociales, Estrategia de publicidad online, Campañas de márketing",
     color: "#F9D74C",
     contentColor: "dark",
   },
   {
     id: 3,
-    icon: "images/service-3.svg",
-    title: "Photography",
+    icon: "images/service-1.svg",
+    title: "Branding",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Diseño de marca y logotipo, Diseño de identidad corporativa, Brochure y Catálogos",
     color: "#F97B8B",
     contentColor: "light",
   },
@@ -47,7 +47,7 @@ function Services() {
         </div>
         <div className="mt-5 text-center">
           <p className="mb-0">
-            Looking for a custom job?{" "}
+            ¿Buscas un trabajo personalizado?{" "}
             <Link
               className="colorpink pointer"
               to="section-contact"
@@ -55,9 +55,9 @@ function Services() {
               smooth={true}
               duration={500}
             >
-              Click here
+              haga clic aquí
             </Link>{" "}
-            to contact me! 👋
+            ¡para contactar conmigo! 👋
           </p>
         </div>
       </div>

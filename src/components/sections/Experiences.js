@@ -54,7 +54,7 @@ function Experiences() {
   return (
     <section id="experience">
       <div className="container">
-        <Pagetitle title="Experience" />
+        <Pagetitle title="Experiencia" />
         <div className="row">
           <div className="col-md-6">
             <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">

@@ -17,12 +17,12 @@ function Pricebox({ priceboxItem }) {
         <p key={singleContent.id}>{singleContent.text}</p>
       ))}
       <h3 className="price">
-        <em>$</em>
+        <em>S/</em>
         {price}
-        <span>Month</span>
+        <span>Proyecto</span>
       </h3>
       <a href="!#" className="btn btn-default">
-        Get Started
+        Contratar
       </a>
     </div>
   );

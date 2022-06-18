@@ -37,7 +37,7 @@ function Blogs() {
   return (
     <section id="blog">
       <div className="container">
-        <Pagetitle title="Latest Posts" />
+        <Pagetitle title="Últimas publicaciones" />
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (
             <div className="col-md-4" key={blogItem.id}>
@@ -48,7 +48,7 @@ function Blogs() {
         <div className="text-center">
           <div className="spacer" data-height="30"></div>
           <Link to="/blogs" className="btn btn-default">
-            Show all blogs
+            Ver más
           </Link>
         </div>
       </div>

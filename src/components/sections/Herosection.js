@@ -26,15 +26,11 @@ function Herosection(props) {
         <div className="intro">
           <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">Gerson Medina</h1>
           <p>
-            I'm a{" "}
+            Soy un{" "}
             <Typed
-              strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
-              ]}
+              strings={["Comunicador Social ", "Amante de la fotografía"]}
               typeSpeed={80}
               backSpeed={40}
               attr="value"
@@ -46,28 +42,18 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://www.instagram.com/gersonmedina.75/">
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-twitter"></i>
+              <a href="https://www.facebook.com/GersonMedinaFoto">
+                <i className="fab fa-facebook"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-behance"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
+              <a href="https://www.youtube.com/channel/UCAhKQseHBQXqajZRj66sdWw/videos">
+                <i className="fab fa-youtube"></i>
               </a>
             </li>
           </ul>
@@ -80,7 +66,7 @@ function Herosection(props) {
               smooth={true}
               duration={500}
             >
-              Hire me
+              Contáctame
             </Link>
           </div>
         </div>
@@ -93,7 +79,7 @@ function Herosection(props) {
             duration={500}
             className="mouse-wrapper"
           >
-            <span>Scroll Down</span>
+            <span>Desplazarse hacia abajo</span>
             <span className="mouse">
               <span className="wheel"></span>
             </span>

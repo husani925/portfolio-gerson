@@ -5,47 +5,50 @@ import Pricebox from "../elements/Pricebox";
 const priceboxData = [
   {
     id: 1,
-    title: "Basic",
+    title: "Contenido Audiovisual",
     icon: "images/price-1.svg",
     content: [
       {
         id: 0,
-        text: "A Simple option but powerful to manage your business",
+        text: "Una opción simple pero poderosa para administrar su negocio",
       },
       {
         id: 2,
-        text: "Email support",
+        text: "Desde",
       },
     ],
-    price: 9,
+    price: 99,
     best: false,
     badge: false,
   },
   {
     id: 2,
-    title: "Premium",
+    title: "Publicidad Online",
     icon: "images/price-2.svg",
     content: [
       {
         id: 1,
-        text: "Unlimited product including apps integrations and more features",
+        text: "Una opción simple pero poderosa para administrar su negocio",
       },
       {
         id: 2,
-        text: "Mon-Fri support",
+        text: "Desde",
       },
     ],
-    price: 49,
+    price: 89,
     best: true,
-    badge: "Recommended",
+    badge: "Popular",
   },
   {
     id: 3,
-    title: "Ultimate",
+    title: "Branding",
     icon: "images/price-3.svg",
     content: [
-      { id: 1, text: "A wise option for large companies and individuals" },
-      { id: 2, text: "24/7 support" },
+      {
+        id: 1,
+        text: "Una opción simple pero poderosa para administrar su negocio",
+      },
+      { id: 2, text: "Desde" },
     ],
     price: 99,
     best: false,
@@ -57,7 +60,7 @@ function Pricing() {
   return (
     <section id="prices">
       <div className="container">
-        <Pagetitle title="Pricing Plans" />
+        <Pagetitle title="Precios" />
         <div className="row align-items-center">
           {priceboxData.map((pricebox) => (
             <div key={pricebox.id} className="col-md-4">

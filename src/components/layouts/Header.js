@@ -49,7 +49,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-home"></i>Home
+                <i className="icon-home"></i>Beinvenido
               </Link>
             </li>
             <li>
@@ -60,7 +60,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-user-following"></i>About
+                <i className="icon-user-following"></i>Sobre mi
               </Link>
             </li>
             <li>
@@ -71,7 +71,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-briefcase"></i>Services
+                <i className="icon-briefcase"></i>Servicios
               </Link>
             </li>
             <li>
@@ -82,7 +82,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-graduation"></i>Experience
+                <i className="icon-graduation"></i>Experiencia
               </Link>
             </li>
             <li>
@@ -93,7 +93,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-layers"></i>Works
+                <i className="icon-layers"></i>Trabajos
               </Link>
             </li>
             <li>
@@ -115,7 +115,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-bubbles"></i>Contact
+                <i className="icon-bubbles"></i>Contacto
               </Link>
             </li>
           </ul>
@@ -123,7 +123,12 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
 
         <div className="footer">
           <span className="copyright">
-            &copy; {new Date().getFullYear()} Bolby Template.
+            <Link
+              to={{ pathname: "https://www.humbersanchez.com" }}
+              target="_blank"
+            >
+              &copy; {new Date().getFullYear()} Powered By Humber.
+            </Link>
           </span>
         </div>
       </header>

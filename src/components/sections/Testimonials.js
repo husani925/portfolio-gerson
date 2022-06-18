@@ -8,25 +8,25 @@ const sliderData = [
     id: 1,
     avatar: "images/avatar-1.svg",
     userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    subtitle: "Diseñador de productos en Dribbble",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Disfruto trabajar con el tema y aprendo mucho. Ustedes hacen que el proceso sea divertido e interesante. ¡Buena suerte! 👍",
   },
   {
     id: 2,
     avatar: "images/avatar-2.svg",
     userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    subtitle: "Diseñador de productos en Dribbble",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Disfruto trabajar con el tema y aprendo mucho. Ustedes hacen que el proceso sea divertido e interesante. ¡Buena suerte! 👍",
   },
   {
     id: 3,
     avatar: "images/avatar-3.svg",
     userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    subtitle: "Diseñador de productos en Dribbble",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Disfruto trabajar con el tema y aprendo mucho. Ustedes hacen que el proceso sea divertido e interesante. ¡Buena suerte! 👍",
   },
 ];
 
@@ -43,7 +43,7 @@ function Testimonials() {
   return (
     <section id="testimonials">
       <div className="container">
-        <Pagetitle title="Clients & Review" />
+        <Pagetitle title="Clientes & comentarios" />
         <Slider {...slidetSettings} className="testimonials-wrapper">
           {sliderData.map((slider) => (
             <Testimonial key={slider.id} slider={slider} />
