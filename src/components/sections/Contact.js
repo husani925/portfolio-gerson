@@ -53,7 +53,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <Pagetitle title="Get in Touch" />
+        <Pagetitle title="Contacto" />
 
         <div className="row">
           <div className="col-md-4">
@@ -92,7 +92,7 @@ function Contact() {
                       className="form-control"
                       name="name"
                       id="InputName"
-                      placeholder="Your name"
+                      placeholder="Nombres completos"
                       onChange={handleChange}
                       value={formdata.name}
                     />
@@ -106,7 +106,7 @@ function Contact() {
                       className="form-control"
                       id="InputEmail"
                       name="email"
-                      placeholder="Email address"
+                      placeholder="Email"
                       onChange={handleChange}
                       value={formdata.email}
                     />
@@ -120,7 +120,7 @@ function Contact() {
                       className="form-control"
                       id="InputSubject"
                       name="subject"
-                      placeholder="Subject"
+                      placeholder="Asunto"
                       onChange={handleChange}
                       value={formdata.subject}
                     />
@@ -134,7 +134,7 @@ function Contact() {
                       id="InputMessage"
                       className="form-control"
                       rows="5"
-                      placeholder="Message"
+                      placeholder="Mensaje"
                       onChange={handleChange}
                       value={formdata.message}
                     ></textarea>

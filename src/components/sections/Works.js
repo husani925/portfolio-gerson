@@ -218,7 +218,7 @@ function Works() {
             disabled={noMorePost ? "disabled" : null}
           >
             {noMorePost ? (
-              "No more items"
+              "No hay más trabajos"
             ) : (
               <span>
                 <i className="fas fa-spinner"></i> Ver más

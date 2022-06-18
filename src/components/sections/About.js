@@ -6,7 +6,7 @@ import Skill from "../elements/Skill";
 
 const aboutContent = {
   name: "Gerson Medina",
-  avatarImage: "/images/avatar-2.svg",
+  avatarImage: "/images/gersonmedina.jpg",
   content:
     "Me desempeño en las diversas áreas de esta carrera como son la fotografía, producción audiovisual, relaciones públicas, marketing, diseño gráfico y gestión de redes sociales, entre otras.",
 };
@@ -67,7 +67,11 @@ function About() {
         <div className="row">
           <div className="col-md-3">
             <div className="text-center text-md-left">
-              <img src={aboutContent.avatarImage} alt={aboutContent.name} />
+              <img
+                className="perfil-sobremi"
+                src={aboutContent.avatarImage}
+                alt={aboutContent.name}
+              />
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>

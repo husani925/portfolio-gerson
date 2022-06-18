@@ -106,7 +106,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   Trabajos
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   activeClass="active"
                   className="nav-link"
@@ -117,7 +117,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 >
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   activeClass="active"

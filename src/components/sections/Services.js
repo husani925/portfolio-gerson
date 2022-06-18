@@ -37,7 +37,7 @@ function Services() {
   return (
     <section id="services">
       <div className="container">
-        <Pagetitle title="Services" />
+        <Pagetitle title="Servicios" />
         <div className="row fix-spacing">
           {servicesData.map((service) => (
             <div className="col-md-4" key={service.id}>

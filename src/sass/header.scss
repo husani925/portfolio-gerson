@@ -470,7 +470,7 @@ header.mobile-header-2 {
 	border-bottom: solid 1px rgba(255, 255, 255, 0.1);
 
 	.navbar {
-		padding: 0;
+		padding-left: 15%;
 	}
 
 	.navbar-brand {
@@ -489,11 +489,11 @@ header.mobile-header-2 {
 		cursor: pointer;
 
 		&.active {
-			color: $coloryellow !important;
+			color: $colorpink !important;
 		}
 
 		&:hover {
-			color: $coloryellow !important;
+			color: $colorpink !important;
 		}
 	}
 

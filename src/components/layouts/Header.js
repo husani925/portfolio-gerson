@@ -49,7 +49,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-home"></i>Beinvenido
+                <i className="icon-home"></i>Mi Blog
               </Link>
             </li>
             <li>
