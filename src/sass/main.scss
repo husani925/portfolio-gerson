@@ -83,7 +83,7 @@ section.home {
   }
 
   &.light {
-    background: #f9f9ff;
+    background: #fafafa;
 
     .intro {
       h1 {
@@ -349,7 +349,7 @@ section.home {
 
   li {
     button {
-      color: #5e5c7f;
+      color: #191919;
       cursor: pointer;
       font-family: $fonthead;
       font-size: 16px;
@@ -610,7 +610,7 @@ select.portfolio-filter-mobile {
 }
 
 .blog-page-section {
-  background-color: #f9f9ff;
+  background-color: #fafafa;
   padding-top: 0;
 
   .blog-img-text {
@@ -623,7 +623,7 @@ select.portfolio-filter-mobile {
       font-size: 30px;
 
       a {
-        color: #454360;
+        color: #191919;
 
         &:hover {
           color: #ff4c60;
@@ -1162,7 +1162,7 @@ footer.footer {
   }
 
   &.light {
-    background: #f9f9ff;
+    background: #fafafa;
     border-top: solid 1px rgba(0, 0, 0, 0.05);
   }
 }

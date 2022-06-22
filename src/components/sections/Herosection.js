@@ -28,12 +28,13 @@ function Herosection(props) {
 
           <h1 className="mb-2 mt-0">Gerson Medina</h1>
           <p>
-            Soy un{" "}
+            {" "}
             <Typed
               strings={[
                 "Comunicador Social ",
                 "Amante de la fotografía",
                 "Artista digital",
+                "Comunicador Social ",
               ]}
               typeSpeed={80}
               backSpeed={40}

@@ -5,48 +5,32 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+    title: "Comunicador Social",
+    years: "2015 - 2019",
+    content: "Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+    title: "Diseñador Gráfico",
+    years: "2021 - Presente",
+    content: "Manejo avanzado de Corel Draw, Match3 y ArtCAM",
   },
   {
     id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
+    title: "Asesor de márketing",
+    years: "2020",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Elaboración de planes de márketing y administración de redes sociales, para la empresa Plus Dent.",
   },
   {
     id: 3,
-    title: "Back-End Developer",
-    years: "2013 - 2009",
+    title: "Editor de contenidos",
+    years: "2019",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Administración de redes sociales, diseño gráfico y redacción de notas de prensa.",
   },
 ];
 

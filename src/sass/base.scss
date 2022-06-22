@@ -12,8 +12,8 @@ html {
 }
 
 body {
-    color: #5E5C7F;
-    background-color: #F9F9FF;
+    color: #191919;
+    background-color: #fafafa;
     font-family: $fontstack;
     font-size: 16px;
     line-height: 1.7;
@@ -64,7 +64,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #454360;
+    color: #191919;
     font-family: $fonthead;
     font-weight: 700;
     margin: 20px 0;
@@ -89,6 +89,7 @@ h4 {
 a {
     color: $colorpink;
     outline: 0;
+    text-decoration: none;
     @include transition(.3s);
 
     &:hover {

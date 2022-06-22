@@ -10,7 +10,7 @@ function Footer({ light }) {
             to={{ pathname: "https://www.humbersanchez.com" }}
             target="_blank"
           >
-            &copy; {new Date().getFullYear()} Powered By Humber.
+            &copy; {new Date().getFullYear()} Powered By Humber
           </Link>
         </span>
       </div>

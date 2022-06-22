@@ -8,27 +8,27 @@ const aboutContent = {
   name: "Gerson Medina",
   avatarImage: "/images/gersonmedina.jpg",
   content:
-    "Me desempeño en las diversas áreas de esta carrera como son la fotografía, producción audiovisual, relaciones públicas, marketing, diseño gráfico y gestión de redes sociales, entre otras.",
+    "Me desempeño en las diversas áreas de esta carrera, fotografía, producción audiovisual, relaciones públicas, marketing, diseño gráfico, gestión de redes sociales y más.",
 };
 
 const progressData = [
   {
     id: 1,
-    title: "Producción Audiovisual",
+    title: "Fotografía",
     percantage: 100,
-    progressColor: "#FFD15C",
+    progressColor: "#6C6CE5",
   },
   {
     id: 2,
-    title: "Diseño Gráfico",
-    percantage: 90,
-    progressColor: "#FF4C60",
+    title: "Producción Audiovisual",
+    percantage: 95,
+    progressColor: "#FFD15C",
   },
   {
     id: 3,
-    title: "Fotografía",
-    percantage: 95,
-    progressColor: "#6C6CE5",
+    title: "Diseño Gráfico",
+    percantage: 90,
+    progressColor: "#FF4C60",
   },
 ];
 
@@ -41,18 +41,12 @@ const counterData = [
   },
   {
     id: 2,
-    title: "Cup of coffee",
-    count: 652,
-    icon: "icon-cup",
-  },
-  {
-    id: 3,
     title: "Clientes satisfechos",
     count: 256,
     icon: "icon-people",
   },
   {
-    id: 4,
+    id: 3,
     title: "Ganador nominado",
     count: 5,
     icon: "icon-badge",
@@ -109,7 +103,7 @@ function About() {
         <div className="spacer" data-height="70"></div>
         <div className="row fix-spacing">
           {counterData.map((counter) => (
-            <div key={counter.id} className="col-md-3 col-sm-6">
+            <div key={counter.id} className="col-md-4 col-sm-6">
               <TrackVisibility once>
                 <Counter counterItem={counter} />
               </TrackVisibility>
