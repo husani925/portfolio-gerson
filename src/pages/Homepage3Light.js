@@ -8,9 +8,7 @@ import Brandlogos from "../components/sections/Brandlogos";
 import Contact from "../components/sections/Contact";
 import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
-import Pricing from "../components/sections/Pricing";
 import Services from "../components/sections/Services";
-import Testimonials from "../components/sections/Testimonials";
 import Works from "../components/sections/Works";
 
 function Homepage3Light() {
@@ -18,7 +16,7 @@ function Homepage3Light() {
 
   return (
     <>
-      <Header3 light logoSource="/images/logo-dark.svg" />
+      <Header3 light logoSource="/images/gersonmedina.png" />
       <main className="content-3">
         <Element name="section-home">
           <ReactCursorPosition>
@@ -37,13 +35,14 @@ function Homepage3Light() {
         <Element name="section-works">
           <Works />
         </Element>
-        <Element name="section-pricing">
+        {/*<Element name="section-pricing">
           <Pricing />
-        </Element>
+        </Element> 
         <Element name="section-testimoninal">
           <Testimonials />
-        </Element>
+        </Element>*/}
         <Element name="section-brandlogos">
+          <br />
           <Brandlogos />
         </Element>
         {/* <Element name="section-blogs">

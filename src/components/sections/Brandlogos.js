@@ -1,4 +1,5 @@
 import React from "react";
+import Pagetitle from "../elements/Pagetitle";
 
 const brandlogoData = [
   {
@@ -39,6 +40,7 @@ function Brandlogos() {
   return (
     <div id="branglogos">
       <div className="container">
+        <Pagetitle title="Clientes" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
             <div className="col-md-3 col-6" key={brandlogo.id}>
