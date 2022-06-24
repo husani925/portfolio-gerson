@@ -4,7 +4,6 @@ import { Element } from "react-scroll";
 import Header3 from "../components/layouts/Header3";
 import Footer from "../components/layouts/Footer";
 import About from "../components/sections/About";
-import Brandlogos from "../components/sections/Brandlogos";
 import Contact from "../components/sections/Contact";
 import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
@@ -40,7 +39,7 @@ function Homepage3Light() {
         </Element> 
         <Element name="section-testimoninal">
           <Testimonials />
-        </Element>*/}
+        </Element>
         <Element name="section-brandlogos">
           <br />
           <Brandlogos />

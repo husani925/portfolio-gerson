@@ -6,23 +6,24 @@ import Portfolio from "../elements/Portfolio";
 const filters = [
   {
     id: 1,
-    text: "Todos",
+    text: "todos",
   },
   {
     id: 2,
-    text: "Fotografía",
+    text: "fotografia",
   },
   {
     id: 3,
-    text: "Vídeo",
+    text: "vídeo",
   },
   {
     id: 4,
-    text: "Diseño gráfico",
+    text: "diseño gráfico",
   },
 ];
 
 const allData = [
+  //fotografía
   {
     id: 1,
     title: "Raymillacta",
@@ -86,6 +87,67 @@ const allData = [
     popupLink: [
       "images/works/fotografia/cavernasluya1.jpg",
       "images/works/fotografia/cavernasluya2.jpg",
+    ],
+  },
+
+  //eventos
+
+  {
+    id: 8,
+    title: "15 Primaveras Angie",
+    category: "fotografia",
+    image: "images/works/eventos/15primaverasangie.jpg",
+    popupLink: ["images/works/eventos/15primaverasangie.jpg"],
+  },
+
+  {
+    id: 9,
+    title: "1 Añito Mia",
+    category: "fotografia",
+    image: "images/works/eventos/1añitomia.jpg",
+    popupLink: ["images/works/eventos/1añitomia.jpg"],
+  },
+  {
+    id: 10,
+    title: "Fiesta Promo",
+    category: "fotografia",
+    image: "images/works/eventos/fiestapromo.jpg",
+    popupLink: ["images/works/eventos/fiestapromo.jpg"],
+  },
+  {
+    id: 11,
+    title: "15 Primaveras Linda",
+    category: "fotografia",
+    image: "images/works/eventos/15primaveraslinda1.jpg",
+    popupLink: [
+      "images/works/eventos/15primaveraslinda1.jpg",
+      "images/works/eventos/15primaveraslinda2.jpg",
+    ],
+  },
+  {
+    id: 12,
+    title: "65 Años Antonio",
+    category: "fotografia",
+    image: "images/works/eventos/65añosantonio.jpg",
+    popupLink: ["images/works/eventos/65añosantonio.jpg"],
+  },
+
+  //naturaleza
+  {
+    id: 13,
+    title: "Naturaleza",
+    category: "fotografia",
+    image: "images/works/naturaleza/catarataazufradapedroruiz.jpg",
+    popupLink: [
+      "images/works/naturaleza/catarataazufradapedroruiz.jpg",
+      "images/works/naturaleza/avesdemar.jpg",
+      "images/works/naturaleza/caracoles.jpg",
+      "images/works/naturaleza/cataratagocta.jpg",
+      "images/works/naturaleza/cerrolatorita.jpg",
+      "images/works/naturaleza/flores.jpg",
+      "images/works/naturaleza/luna.jpg",
+      "images/works/naturaleza/miradorhuancaurco.jpg",
+      "images/works/naturaleza/riomarañon.jpg",
     ],
   },
 ];
