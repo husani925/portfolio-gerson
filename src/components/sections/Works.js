@@ -150,6 +150,16 @@ const allData = [
       "images/works/naturaleza/riomarañon.jpg",
     ],
   },
+  //videos
+  {
+    id: 1,
+    title: "DafiModa",
+    category: "vídeo",
+    image: "images/works/multimedia/dafimoda.jpg",
+    popupLink: [
+      "https://www.youtube.com/watch?v=Z7p3hFf1kQU&ab_channel=GersonMedina",
+    ],
+  },
 ];
 
 function Works() {
