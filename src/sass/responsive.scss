@@ -66,7 +66,8 @@ only screen and (min-device-pixel-ratio: 1.5){
 		padding: 300px 0;
 	}
 	.portfolio-filter {
-		display: none;
+		//display: none;
+		text-align: center;
 	}
 	.portfolio-item, .blog-item {
 		max-width: 360px;
