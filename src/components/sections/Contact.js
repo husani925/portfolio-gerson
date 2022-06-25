@@ -63,7 +63,7 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>¡Hablemos de todo!</h3>
+                <h3>¡Hablemos de proyectos!</h3>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"

@@ -11,7 +11,7 @@ const servicesData = [
     content:
       "Videos corporativos, Fotografía profesional, Producción & postproducción audiovisual",
     color: "#6C6CE5",
-    contentColor: "light",
+    contentColor: "dark",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const servicesData = [
     content:
       "Diseño de marca y logotipo, Diseño de identidad corporativa, Brochure y Catálogos",
     color: "#F97B8B",
-    contentColor: "light",
+    contentColor: "dark",
   },
 ];
 
@@ -46,7 +46,7 @@ function Services() {
           ))}
         </div>
         <div className="mt-5 text-center">
-          <p className="mb-0">
+          <h4 className="mb-0">
             ¿Buscas un trabajo personalizado?{" "}
             <Link
               className="colorpink pointer"
@@ -58,7 +58,7 @@ function Services() {
               haga clic aquí
             </Link>{" "}
             ¡para contactar conmigo! 👋
-          </p>
+          </h4>
         </div>
       </div>
     </section>

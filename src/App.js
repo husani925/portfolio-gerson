@@ -2,8 +2,6 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Homepage3Light from "./pages/Homepage3Light";
 
-import Bloglist from "./pages/Bloglist";
-import BlogDetails from "./pages/BlogDetails";
 import "./App.scss";
 
 function App() {
@@ -13,8 +11,8 @@ function App() {
         <Route path="/" exact>
           <Homepage3Light />
         </Route>
-        <Route path="/blogs" component={Bloglist} exact />
-        <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
+        {/*<Route path="/blogs" component={Bloglist} exact />
+        <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />*/}
       </Switch>
     </BrowserRouter>
   );

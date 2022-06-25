@@ -7,6 +7,7 @@ function Footer({ light }) {
       <div className="container">
         <span className="copyright">
           <Link
+            className="copyrightlink"
             to={{ pathname: "https://www.humbersanchez.com" }}
             target="_blank"
           >

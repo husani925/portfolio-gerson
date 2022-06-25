@@ -16,19 +16,19 @@ const progressData = [
     id: 1,
     title: "Fotografía",
     percantage: 100,
-    progressColor: "#6C6CE5",
+    progressColor: "#4285f4",
   },
   {
     id: 2,
     title: "Producción Audiovisual",
     percantage: 95,
-    progressColor: "#FFD15C",
+    progressColor: "#4285f4",
   },
   {
     id: 3,
     title: "Diseño Gráfico",
     percantage: 90,
-    progressColor: "#FF4C60",
+    progressColor: "#4285f4",
   },
 ];
 

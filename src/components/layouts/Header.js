@@ -124,6 +124,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
         <div className="footer">
           <span className="copyright">
             <Link
+              className="copyrightlink"
               to={{ pathname: "https://www.humbersanchez.com" }}
               target="_blank"
             >

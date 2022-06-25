@@ -24,6 +24,7 @@ function Service({ service }) {
       data-color="#6C6CE5"
       style={{
         background: color,
+
         boxShadow: `0px 5px 20px 0px rgba(${hexToRgb(color)}, 0.5)`,
       }}
     >
