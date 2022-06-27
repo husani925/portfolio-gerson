@@ -16,148 +16,134 @@ const filters = [
     id: 3,
     text: "vídeo",
   },
-  {
-    id: 4,
-    text: "diseño gráfico",
-  },
 ];
 
 const allData = [
   //fotografía
   {
     id: 1,
-    title: "Raymillacta",
+    title: "Amazonas con Gusto",
     category: "fotografia",
-    image: "images/works/fotografia/raymillacta.jpg",
+    image: "images/works/fotografia/amazonascongusto/raymillacta.jpg",
     popupLink: [
-      "images/works/fotografia/raymillacta.jpg",
-      "images/works/fotografia/raymillacta2.jpg",
+      "images/works/fotografia/amazonascongusto/raymillacta.jpg",
+      "images/works/fotografia/amazonascongusto/raymillacta2.jpg",
+      "images/works/fotografia/amazonascongusto/cavernasluya.jpg",
+      "images/works/fotografia/amazonascongusto/danzasycaballos.jpg",
+      "images/works/fotografia/amazonascongusto/distritohuancas.jpg",
+      "images/works/fotografia/amazonascongusto/gentedemitierra1.jpg",
+      "images/works/fotografia/amazonascongusto/gentedemitierra2.jpg",
+      "images/works/fotografia/amazonascongusto/gentedemitierra3.jpg",
+      "images/works/fotografia/amazonascongusto/gentedemitierra4.jpg",
+      "images/works/fotografia/amazonascongusto/gentedemitierra5.jpg",
+      "images/works/fotografia/amazonascongusto/gocta.jpg",
+      "images/works/fotografia/amazonascongusto/hiladora.jpg",
+      "images/works/fotografia/amazonascongusto/huancassonche.jpg",
+      "images/works/fotografia/amazonascongusto/museoleyme.jpg",
+      "images/works/fotografia/amazonascongusto/trajeutcubamba.jpg",
     ],
   },
   {
     id: 2,
-    title: "Gente de mi Tierra",
+    title: "Sesiones Fotográficas",
     category: "fotografia",
-    image: "images/works/fotografia/gentedemitierra2.jpg",
+    image: "images/works/fotografia/sesionesfotograficas/michel.jpg",
     popupLink: [
-      "images/works/fotografia/gentedemitierra1.jpg",
-      "images/works/fotografia/gentedemitierra2.jpg",
-      "images/works/fotografia/gentedemitierra3.jpg",
-      "images/works/fotografia/gentedemitierra4.jpg",
-      "images/works/fotografia/gentedemitierra5.jpg",
-      "images/works/fotografia/hiladora.jpg",
+      "images/works/fotografia/sesionesfotograficas/michel.jpg",
+      "images/works/fotografia/sesionesfotograficas/1añitomaxvy.jpg",
+      "images/works/fotografia/sesionesfotograficas/1añitomia.jpg",
+      "images/works/fotografia/sesionesfotograficas/1añitosantiago.jpg",
+      "images/works/fotografia/sesionesfotograficas/15primaverasangie.jpg",
+      "images/works/fotografia/sesionesfotograficas/15primaveraslinda2.jpg",
+      "images/works/fotografia/sesionesfotograficas/ajedrez.jpg",
+      "images/works/fotografia/sesionesfotograficas/bebe.jpg",
+      "images/works/fotografia/sesionesfotograficas/dulceespera1.jpg",
+      "images/works/fotografia/sesionesfotograficas/dulceespera2.jpg",
+      "images/works/fotografia/sesionesfotograficas/dulceespera3.jpg",
+      "images/works/fotografia/sesionesfotograficas/familia.jpg",
+      "images/works/fotografia/sesionesfotograficas/fiestapromo.jpg",
+      "images/works/fotografia/sesionesfotograficas/individual.jpg",
+      "images/works/fotografia/sesionesfotograficas/jinkai-enentai.jpg",
+      "images/works/fotografia/sesionesfotograficas/pareja.jpg",
+      "images/works/fotografia/sesionesfotograficas/reciennacido.jpg",
+      "images/works/fotografia/sesionesfotograficas/retrato.jpg",
+      "images/works/fotografia/sesionesfotograficas/sanvalentin.jpg",
     ],
   },
+
   {
     id: 3,
-    title: "Catarata de Gocta",
-    category: "fotografia",
-    image: "images/works/fotografia/gocta.jpg",
-    popupLink: ["images/works/fotografia/gocta.jpg"],
-  },
-  {
-    id: 4,
-    title: "Museo Leymebamba",
-    category: "fotografia",
-    image: "images/works/fotografia/museoleyme.jpg",
-    popupLink: ["images/works/fotografia/museoleyme.jpg"],
-  },
-  {
-    id: 5,
-    title: "Danzas y Caballos",
-    category: "fotografia",
-    image: "images/works/fotografia/danzasycaballos.jpg",
-    popupLink: ["images/works/fotografia/danzasycaballos.jpg"],
-  },
-  {
-    id: 6,
-    title: "Huancas",
-    category: "fotografia",
-    image: "images/works/fotografia/distritohuancas.jpg",
-    popupLink: [
-      "images/works/fotografia/distritohuancas.jpg",
-      "images/works/fotografia/huancassonche.jpg",
-    ],
-  },
-  {
-    id: 7,
-    title: "Cavernas Luya",
-    category: "fotografia",
-    image: "images/works/fotografia/cavernasluya1.jpg",
-    popupLink: [
-      "images/works/fotografia/cavernasluya1.jpg",
-      "images/works/fotografia/cavernasluya2.jpg",
-    ],
-  },
-
-  //eventos
-
-  {
-    id: 8,
-    title: "15 Primaveras Angie",
-    category: "fotografia",
-    image: "images/works/eventos/15primaverasangie.jpg",
-    popupLink: ["images/works/eventos/15primaverasangie.jpg"],
-  },
-
-  {
-    id: 9,
-    title: "1 Añito Mia",
-    category: "fotografia",
-    image: "images/works/eventos/1añitomia.jpg",
-    popupLink: ["images/works/eventos/1añitomia.jpg"],
-  },
-  {
-    id: 10,
-    title: "Fiesta Promo",
-    category: "fotografia",
-    image: "images/works/eventos/fiestapromo.jpg",
-    popupLink: ["images/works/eventos/fiestapromo.jpg"],
-  },
-  {
-    id: 11,
-    title: "15 Primaveras Linda",
-    category: "fotografia",
-    image: "images/works/eventos/15primaveraslinda1.jpg",
-    popupLink: [
-      "images/works/eventos/15primaveraslinda1.jpg",
-      "images/works/eventos/15primaveraslinda2.jpg",
-    ],
-  },
-  {
-    id: 12,
-    title: "65 Años Antonio",
-    category: "fotografia",
-    image: "images/works/eventos/65añosantonio.jpg",
-    popupLink: ["images/works/eventos/65añosantonio.jpg"],
-  },
-
-  //naturaleza
-  {
-    id: 13,
     title: "Naturaleza",
     category: "fotografia",
-    image: "images/works/naturaleza/catarataazufradapedroruiz.jpg",
+    image: "images/works/fotografia/naturaleza/catarataazufradapedroruiz.jpg",
     popupLink: [
-      "images/works/naturaleza/catarataazufradapedroruiz.jpg",
-      "images/works/naturaleza/avesdemar.jpg",
-      "images/works/naturaleza/caracoles.jpg",
-      "images/works/naturaleza/cataratagocta.jpg",
-      "images/works/naturaleza/cerrolatorita.jpg",
-      "images/works/naturaleza/flores.jpg",
-      "images/works/naturaleza/luna.jpg",
-      "images/works/naturaleza/miradorhuancaurco.jpg",
-      "images/works/naturaleza/riomarañon.jpg",
+      "images/works/fotografia/naturaleza/catarataazufradapedroruiz.jpg",
+      "images/works/fotografia/naturaleza/avesdemar.jpg",
+      "images/works/fotografia/naturaleza/caracoles.jpg",
+      "images/works/fotografia/naturaleza/cerrolatorita.jpg",
+      "images/works/fotografia/naturaleza/flores.jpg",
+      "images/works/fotografia/naturaleza/gocta.jpg",
+      "images/works/fotografia/naturaleza/luna.jpg",
+      "images/works/fotografia/naturaleza/miradorhuancaurco.jpg",
+      "images/works/fotografia/naturaleza/riomarañon.jpg",
     ],
   },
   //videos
   {
-    id: 1,
+    id: 4,
     title: "DafiModa",
     category: "vídeo",
-    image: "images/works/multimedia/dafimoda.jpg",
+    image: "images/works/video/dafimoda.png",
     popupLink: [
       "https://www.youtube.com/watch?v=Z7p3hFf1kQU&ab_channel=GersonMedina",
+    ],
+  },
+
+  {
+    id: 5,
+    title: "Noche de Bares",
+    category: "vídeo",
+    image: "images/works/video/nochedebares.png",
+    popupLink: [
+      "https://www.youtube.com/watch?v=Mm1bT14rp9E&ab_channel=AMAZONASCONGUSTO",
+    ],
+  },
+  {
+    id: 6,
+    title: "Amazonas",
+    category: "vídeo",
+    image: "images/works/video/amazonas.png",
+    popupLink: [
+      "https://www.youtube.com/watch?v=fD8T71-czVw&ab_channel=GersonMedina",
+    ],
+  },
+  {
+    id: 7,
+    title: "Manos Alfareras",
+    category: "vídeo",
+    image: "images/works/video/manosalfareras.png",
+    popupLink: [
+      "https://www.youtube.com/watch?v=imDxoCcj1jE&ab_channel=AMAZONASCONGUSTO",
+    ],
+  },
+
+  {
+    id: 8,
+    title: "Relatos de Bonisho",
+    category: "vídeo",
+    image: "images/works/video/relatosdebonicho.png",
+    popupLink: [
+      "https://www.youtube.com/watch?v=poWTtiDSSb0&ab_channel=AMAZONASCONGUSTO",
+    ],
+  },
+
+  {
+    id: 9,
+    title: "Jinkai Enentai",
+    category: "vídeo",
+    image: "images/works/video/jinkai-enentai.jpg",
+    popupLink: [
+      "https://www.youtube.com/watch?v=jpmGezlE9UY&ab_channel=GersonMedina",
     ],
   },
 ];
