@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [formdata, setFormdata] = useState({
@@ -31,6 +32,22 @@ function Contact() {
       setError(false);
       setMessage("¡¡¡Tu mensaje a sido enviado!!!");
     }
+
+    emailjs
+      .sendForm(
+        "service_nqmiedc",
+        "template_4qdiczf",
+        event.currentTarget,
+        "2hrfNZyVw4YgM792O"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   const handleChange = (event) => {

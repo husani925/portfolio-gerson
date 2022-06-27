@@ -42,7 +42,7 @@ function Herosection(props) {
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.facebook.com/GersonMedinaFoto">
+              <a href="https://www.facebook.com/gersonmedina97">
                 <i className="fab fa-facebook"></i>
               </a>
             </li>

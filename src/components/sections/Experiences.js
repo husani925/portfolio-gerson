@@ -14,21 +14,21 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
-    title: "Diseñador Gráfico",
+    title: "Diseñador Gráfico - CITE UTCUBAMBA ",
     years: "2021 - Presente",
-    content: "Manejo avanzado de Corel Draw, Match3 y ArtCAM",
+    content: "Manejo avanzado de Corel Draw, Match3, ArtCAM y Wilcom",
   },
   {
     id: 2,
-    title: "Asesor de márketing",
+    title: "Asesor de márketing - PLUS DENT",
     years: "2020",
     content:
       "Elaboración de planes de márketing y administración de redes sociales, para la empresa Plus Dent.",
   },
   {
     id: 3,
-    title: "Editor de contenidos",
-    years: "2019",
+    title: "Editor de contenidos - AMAZONAS CON GUSTO",
+    years: "2019 - Presente",
     content:
       "Administración de redes sociales, diseño gráfico y redacción de notas de prensa.",
   },
